@@ -13,6 +13,7 @@ namespace DoodleApp
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            // Added a line 1.
         }
 
         public IConfiguration Configuration { get; }
